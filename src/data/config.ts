@@ -9,7 +9,7 @@ export const siteConfig = {
     whatsapp: "911234567890", // Replace with actual WhatsApp number (no +)
     address: "1st Floor, Pitrukrupa Complex, Teen Hanuman Mandir, 42, Deesa, Gujarat 385535",
     email: "hello@smilecare.com", // Replace with actual email
-    googleMapsUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d113647.7801833898!2d72.0735398!3d24.2647254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cbd7c64bb4c75%3A0xc9680783c33fee5b!2sSmile%20Care%20Dental%20Clinic%20%26%20Implant%20Center(Dr.%20Miral%20K%20Patel)%2C%20Deesa.!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus",
+    googleMapsUrl: "https://www.google.com/maps?q=Smile+Care+Dental+Clinic+%26+Implant+Center(Dr.+Miral+K+Patel),+Deesa&output=embed",
   },
   doctor: {
     name: "Dr. [Your Name]",
