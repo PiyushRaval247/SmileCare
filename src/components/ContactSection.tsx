@@ -114,7 +114,7 @@ export default function ContactSection() {
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Us</h3>
                 <p className="text-slate-600 mb-2">{contact.address}</p>
                 <a 
-                  href="https://www.google.com/maps/dir//24.265366,72.183251" 
+                  href="https://maps.app.goo.gl/FHQxndy1U2ofH8dn8?g_st=ac" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-lg font-semibold text-indigo-600 hover:text-indigo-700 flex items-center gap-1"
@@ -286,7 +286,7 @@ export default function ContactSection() {
           {/* Floating Directions Button over Map */}
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-6 z-20">
             <a 
-              href="https://www.google.com/maps/dir//24.265366,72.183251" 
+              href="https://maps.app.goo.gl/FHQxndy1U2ofH8dn8?g_st=ac" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white text-blue-600 font-bold rounded-full shadow-xl hover:bg-blue-50 hover:scale-105 transition-all flex items-center justify-center gap-2 border border-blue-100 min-w-max"
