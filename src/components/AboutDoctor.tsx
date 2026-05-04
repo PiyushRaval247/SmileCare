@@ -43,7 +43,7 @@ export default function AboutDoctor() {
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
                 Meet Your Specialist
                 <br />
-                <span className="text-blue-600">Committed to Your Smile</span>
+                <span className="text-blue-600">Committed to Your Health</span>
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed max-w-lg">
                 {doctor.description}

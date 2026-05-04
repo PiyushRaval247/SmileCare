@@ -80,7 +80,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 hover:text-slate-400 transition-colors">
           <p>© {currentYear} {siteConfig.name}. All rights reserved.</p>
           <p>
-            Designed with <span className="text-blue-500">♥</span> for your smile.
+            Designed with <span className="text-blue-500">♥</span> for your health.
           </p>
         </div>
       </div>

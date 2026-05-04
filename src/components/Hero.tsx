@@ -1,5 +1,6 @@
 import { siteConfig } from '@/data/config';
 import { CalendarDays, Phone } from 'lucide-react';
+import CalComButton from './CalComButton';
 
 export default function Hero() {
   return (
@@ -23,22 +24,25 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight">
-            Advanced Dental Care for a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Healthier Smile</span>
+            Expert Digestive & Liver Care for <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Better Gut Health</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            {siteConfig.description} Book your appointment today and experience pain-free dentistry.
+            {siteConfig.description} Book your consultation today and experience world-class medical care.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+            <CalComButton 
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
+            />
             <a
               href={`https://wa.me/${siteConfig.contact.whatsapp}?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-base font-semibold text-slate-700 bg-white border-2 border-slate-200 rounded-full hover:border-slate-300 hover:bg-slate-50 hover:-translate-y-0.5 transition-all duration-200"
             >
               <CalendarDays className="w-5 h-5" />
-              <span>Book Appointment</span>
+              <span>Book via WhatsApp</span>
             </a>
             <a
               href={`tel:${siteConfig.contact.phone}`}

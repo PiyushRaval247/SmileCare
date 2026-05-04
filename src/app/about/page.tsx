@@ -16,7 +16,7 @@ export default function AboutPage() {
             About Our Practice
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto">
-            Dedicated to providing exceptional dental care in a comfortable and friendly environment.
+            Dedicated to providing exceptional digestive and liver care in a comfortable and friendly environment.
           </p>
         </div>
       </div>

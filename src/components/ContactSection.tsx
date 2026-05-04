@@ -4,6 +4,7 @@ import { siteConfig } from '@/data/config';
 import { Mail, MapPin, Phone, Calendar, Clock, User, ClipboardList, Send, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import CalComButton from './CalComButton';
 
 export default function ContactSection() {
   const { contact } = siteConfig;
@@ -60,7 +61,7 @@ export default function ContactSection() {
             Get in Touch
           </h2>
           <p className="text-lg text-slate-600">
-            We are here to help you smile brighter. Call us, WhatsApp us, or visit our clinic.
+            We are here to help you improve your digestive health. Call us, WhatsApp us, or visit our clinic.
           </p>
         </motion.div>
 
@@ -114,7 +115,7 @@ export default function ContactSection() {
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Us</h3>
                 <p className="text-slate-600 mb-2">{contact.address}</p>
                 <a 
-                  href="https://maps.app.goo.gl/FHQxndy1U2ofH8dn8?g_st=ac" 
+                  href="https://maps.app.goo.gl/oRw3JFvZBHN6Y5gn8" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-lg font-semibold text-indigo-600 hover:text-indigo-700 flex items-center gap-1"
@@ -137,6 +138,24 @@ export default function ContactSection() {
               
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Book an Appointment</h3>
               
+              <div className="mb-8 p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                <h4 className="font-bold text-blue-900 mb-2 flex items-center gap-2">
+                  <Calendar className="w-5 h-5" /> Automated Scheduling
+                </h4>
+                <p className="text-blue-700 text-sm mb-4">
+                  For instant confirmation, use our automated calendar to pick a time slot that works for you.
+                </p>
+                <CalComButton 
+                  className="w-full py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2 shadow-md"
+                />
+              </div>
+
+              <div className="relative flex items-center gap-4 mb-8">
+                <div className="flex-1 h-px bg-slate-200"></div>
+                <span className="text-slate-400 text-sm font-medium uppercase tracking-wider px-2">Or request via form</span>
+                <div className="flex-1 h-px bg-slate-200"></div>
+              </div>
+
               {isSuccess ? (
                 <motion.div 
                   initial={{ opacity: 0, scale: 0.9 }}
@@ -286,7 +305,7 @@ export default function ContactSection() {
           {/* Floating Directions Button over Map */}
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-6 z-20">
             <a 
-              href="https://maps.app.goo.gl/FHQxndy1U2ofH8dn8?g_st=ac" 
+              href="https://maps.app.goo.gl/oRw3JFvZBHN6Y5gn8" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white text-blue-600 font-bold rounded-full shadow-xl hover:bg-blue-50 hover:scale-105 transition-all flex items-center justify-center gap-2 border border-blue-100 min-w-max"
