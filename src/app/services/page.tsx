@@ -3,7 +3,7 @@ import { siteConfig } from "@/data/config";
 
 export const metadata = {
   title: `Our Services | ${siteConfig.name}`,
-  description: "Explore our comprehensive range of dental services including teeth cleaning, root canals, implants, and more.",
+  description: "Explore our comprehensive range of gastroenterology services including endoscopy, colonoscopy, and specialized liver care.",
 };
 
 export default function ServicesPage() {
@@ -13,10 +13,10 @@ export default function ServicesPage() {
       <div className="bg-blue-600 py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Comprehensive Dental Services
+            Expert Gastroenterology Services
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto">
-            From routine cleanings to advanced procedures, we provide top-quality care for your smile.
+            Providing advanced diagnostic and treatment procedures for your digestive and liver health.
           </p>
         </div>
       </div>

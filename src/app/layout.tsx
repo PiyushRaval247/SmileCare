@@ -9,7 +9,7 @@ import { siteConfig } from "@/data/config";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} - Expert Dental Care in Deesa`,
+  title: `${siteConfig.name} - Gastroenterologist in Patna`,
   description: siteConfig.description,
 };
 
